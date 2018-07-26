@@ -27,7 +27,7 @@
     $iterateur = 100;
     $multiplicateur = 100;
 
-    while ($iterateur >= 10) {
+    while ($iterateur > 10) {
         $resultat = $iterateur * $multiplicateur;
         echo $resultat . "<br><br>";
         $iterateur--;
